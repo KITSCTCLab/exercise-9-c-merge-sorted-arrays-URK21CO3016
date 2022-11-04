@@ -1,3 +1,5 @@
+from typing import List
+
 def merge(nums1: List[int], m: int, nums2: List[int], n: int) -> None:
   # Write code here
   array = [0 for i in range(m + n)]
@@ -27,6 +29,7 @@ def merge(nums1: List[int], m: int, nums2: List[int], n: int) -> None:
   
   for i in range(m + n):
     nums1[i] = array[i]
+
 
 # Do not change the following code
 nums1 = []
